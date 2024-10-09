@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (product) {
             document.getElementById('productModalLabel').textContent = product.title;
             document.getElementById('productModalBody').innerHTML = `
-          <img src="${product.image}" class="img-fluid mb-3" alt="${product.title}">
+          <img src="${product.image}" alt="${product.title}">
           <p>${product.description}</p>
         `;
             const modal = new bootstrap.Modal(document.getElementById('productModal'));
