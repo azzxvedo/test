@@ -1,11 +1,10 @@
  .carousel-item {
-    max-height: 45rem;
+   max-height: 45rem;
  }
 
-
- .container-fluid{
-
-   max-height: 2rem;
+ .card img,
+ .modal-body img {
+   display: block;
+   max-width: 320px;
+   margin: auto;
  }
-   
- 
